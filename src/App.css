@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  margin-inline: 20px;
+  margin-block: 30px;
+}
+nav button{
+  background-color: rgb(148, 148, 210);
+  color: aliceblue;
+  font-size: medium;
+  border: none;
+  outline: none;
+  padding: 5px 7px;
+  border-radius: 8px;
+}
+nav button:hover{
+  background-color: rgb(105, 128, 139);
+  cursor: pointer;
+}
+header h1{
+  font-size: 30px;
+  color: rgb(77, 113, 23);
+  text-align: center;
+  margin-top: 20px;
+}
+.heading h1{
+  font-size: 30px;
+  color: rgb(77, 113, 23);
+  margin-top: 20px;
+}
+.formItems{
+  display:flex;
+justify-content: center;
+align-items: center;
+}
+.headcomp{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-block: 30px;
+  margin-inline: 30px;
+  color:rgb(77, 113, 23) ;
+}
+.headcomp button{
+  background-color: rgb(148, 148, 210);
+  color: aliceblue;
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+.submit{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(134, 168, 168);
+  width: 35%;
+  padding-block: 30px;
+  border-radius: 20px;
+}
+.submit input{
+  width:60%;
+  margin-bottom: 2vh;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+}
+.submit button{
+  width: 20%;
+  padding: 10px 10px;
+  background-color: rgb(87, 87, 216);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.heading, .data {
+  display: grid;
+  grid-template-columns: 0.8fr 2fr 2fr 2fr 2fr 1.5fr; 
+  gap: 10px; 
+}
+
+.data{
+  margin-block: 2px;
+  align-items: center;
+  background-color: rgb(159, 189, 216);
+  padding: 10px;
+}
+
+.data button{
+  background-color: rgb(41, 99, 34);
+  color: aliceblue;
+  border: none;
+  outline: none;
+  padding: 5px 7px;
+  border-radius: 8px;
+  margin-right: 3px;
+  cursor: pointer;
+}
